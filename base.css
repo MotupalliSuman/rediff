@@ -29,8 +29,7 @@ h3{
   font-optical-sizing: auto;
 
   color:#111 !important;
-  border-bottom: solid 2px #000!important;
-  border-bottom: solid 2px #000000 !important;
+  border-bottom: none !important;
 }
 h2:before{
   
@@ -104,7 +103,7 @@ h2:before{
 
   border-top: 1px solid black;
 
-  margin:50px 0  ;
+  margin:50px 0 0 0   ;
   padding:30px 0 0 0 ;
 }
 
@@ -117,7 +116,7 @@ h2:before{
 }
 
 .red_container .secstorybox__container .secstorybox.rediffgurus h3  {
-  border-bottom: solid 2px #000000;}
+  border-bottom: none !important}
 
 .red_container .secstorybox__container .backgurus {
   background:#484646;
@@ -163,7 +162,7 @@ h2:before{
 }
   
 .morestory::after{
-  content:"»"
+  content:" »"
 }
 .secstorybox{
   border-right:1px solid #111;
@@ -205,5 +204,13 @@ h2:before{
 }
 
 .backgurus::after {
-  
+    color:#484646 !important;
+    font-size:14px !important;
+    font-weight:normal !important;
+    
+}
+
+.backmarketnews {
+  background: #484646 !important;
+  position: relative;
 }
