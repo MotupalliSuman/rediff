@@ -1,0 +1,209 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Merriweather ", serif ; ;
+  line-height: 1.6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 2 * 4vw);
+}
+
+h3{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+
+  color:#111 !important;
+  border-bottom: solid 2px #000!important;
+  border-bottom: solid 2px #000000 !important;
+}
+h2:before{
+  
+    background: #777 !important;
+
+}
+
+
+.logobar .topicons a {
+  font-size: 16px;
+  margin: 0px 20px;
+}
+
+.logobar .toprlinks a {
+  font-size: 16px;
+  border: 1px solid;
+  padding: 5px 10px;
+  line-height: 1;
+  border-radius:20px;
+}
+
+.navbar {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; 
+  height:auto;
+  margin:20px auto;
+  background:#ffffff;
+  backdrop-filter: blur(10px);
+  
+}
+
+.navbar .navbarul {
+  padding: 10px 0;
+  backdrop-filter: blur(10px);
+  
+}
+
+.navbar .navbarul li{
+  padding: 0 10px;
+}
+
+.navbar  .div_newssearch{
+  height:30px;
+}
+
+.div_newssearch .txt_srchquery {
+  height:25px;
+}
+.navbar  .div_newssearch .newsrchbtn {
+  position: absolute;
+  right:5px;
+  top:3px;
+
+}
+
+.red_container .firstrow{
+  margin:50px 0;
+  
+}
+
+
+
+.red_container .firstrow .topboxheight.corona {
+  border-right:1px solid;
+  padding-right:40px;
+  height:auto;
+   
+}
+
+.red_container .secstorybox__container{
+
+  border-top: 1px solid black;
+
+  margin:50px 0  ;
+  padding:30px 0 0 0 ;
+}
+
+.red_container .secstorybox__container .secstorybox{
+     border-right:1px solid #111;
+     padding-right:20px;
+}
+.secstorybox h2.live:before{
+  background:none !important;
+}
+
+.red_container .secstorybox__container .secstorybox.rediffgurus h3  {
+  border-bottom: solid 2px #000000;}
+
+.red_container .secstorybox__container .backgurus {
+  background:#484646;
+}
+
+.red_container .secstorybox__container .rediffgurus h3 a{
+  color: #000;
+
+}
+
+.red_container .secstorybox__container .rediffgurus h3 a{
+  color: #000;
+  font-size:20px;
+
+}
+
+.red_container .secstorybox__container .rediffgurus h3 a.hindialso{
+  border-bottom: none;
+}
+
+.secstorybox.rediffgurus h2:before, .secstorybox h2.rediffgurus:before {
+  background: #777;
+}
+
+.secstorybox h2 {
+  border-bottom:none;
+}
+.secstorybox.rediffgurus h2:before{
+  background: #777;
+}
+
+ .morestory {
+  color:#111 !important;
+  font-weight:400;
+  font-size:16px;
+  text-decoration:none;
+  text-transform: uppercase;
+  
+}
+
+.hdtitle {
+  font-size:1.2em;
+}
+  
+.morestory::after{
+  content:"»"
+}
+.secstorybox{
+  border-right:1px solid #111;
+     padding-right:20px;
+}
+
+ .formgetquote{
+  width: 280px;
+}
+
+.stock-market{
+  display:flex;
+  margin:0 auto;
+}
+
+.div_moneyframe{
+  height: 40px;
+}
+
+.secstorybox__container_videos{
+  border-top:1px solid #111;
+  padding:20px 0 0 0;
+}
+
+ #signin_info{
+  display:flex;
+  align-items: center;
+  gap:5px;
+}
+
+.navbarul li a:hover {
+  border-bottom: solid 3px #777 !important;
+  top:0 !important;
+  
+}
+
+.navbarul li:first-child:before{
+  height:3px !important;
+}
+
+.backgurus::after {
+  
+}
