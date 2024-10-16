@@ -44,7 +44,7 @@ h2:before{
 }
 
 .logobar .toprlinks a {
-  font-size: 16px;
+  font-size: 18px;
   border: 1px solid;
   padding: 5px 10px;
   line-height: 1;
@@ -171,6 +171,7 @@ h2:before{
 
  .formgetquote{
   width: 280px;
+  margin:10px 10px;
 }
 
 .stock-market{
@@ -213,4 +214,9 @@ h2:before{
 .backmarketnews {
   background: #484646 !important;
   position: relative;
+}
+
+.logobar .toprlinks a:hover{
+   color:#fff;
+   background:#111;
 }
