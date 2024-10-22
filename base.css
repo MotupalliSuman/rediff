@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: "Merriweather ", serif ; ;
+  font-family: "Merriweather ", serif !important;
   line-height: 1.6;
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,6 +69,9 @@ h2:before{
 .navbarul li{
   color:#000;
   
+}
+.material-symbols-outlined{
+ display:none !important;
 }
 
 .topicons a{
@@ -389,6 +392,7 @@ h2:before{
 
 .nbox {
   position:relative;
+  height:270px;
 }
 
 .nbox .more span,
@@ -399,7 +403,7 @@ h2:before{
   text-transform: capitalize;
   border-radius: 0;
   font-weight: bold;
-  padding: 5px 15px;
+  padding: 15px 15px;
   font-size:0;
   display:block;
 }
@@ -427,7 +431,7 @@ h2:before{
   width: 100%;
   z-index: 99;
   display:block;
-  bottom: -20px;
+  bottom:10px;
 }
 .bigstory .more {
   height: 84px;
@@ -540,7 +544,7 @@ h2:before{
   background:black 0.5;
   padding:5px;
   left:0px;
-  background-color:rgb(0,0,0);opacity:0.6;
+  background-color:rgb(0,0,0);opacity:0.8;
 
 }
 .nbox .more:has(.backbusiness)::before {
@@ -555,21 +559,45 @@ h2:before{
   content: "";
   background-size: 60%;
 }
-/* .backmarketnews::after {
-  content: "NEW";
-  font-size: 9px;
-  font-weight: bold;
-  color: #fff;
-  position: absolute;
-  left: auto;
-  right: 0;
-  background: #1cab1b;
-  padding: 2px 2px;
-  top: 10px;
-  border: 1px solid;
-  border-radius: 50%;
-} */
+
 
 .hdtitle {
   padding: 0 0 0 40px;
+}
+
+.backgurus::after {
+  content: "Trending";
+  position: absolute;
+  color: #db0606;
+  font-size: 12px;
+  height: 12px;
+  line-height: 10px;
+  right: 0px !important;
+  font-family: "arial", "Muli";
+  font-weight: bold;
+  cursor: default;
+  bottom: 0;
+  left: auto;
+  width: 30px;
+  height: 30px !important;
+  background: url(../images/trending.png) no-repeat  center / 30px;
+  font-size: 0;
+  content: '' !important;
+}
+
+.navbarul .news a:after{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  width: 18px;
+  height: 10px;
+  z-index: 1;
+  background: url(//imworld.rediff.com/worldrediff/pix/newindhomesprite.png) no-repeat -281px 0;
+  cursor: default;
+  pointer-events: none;}
+
+.subnavbar.news {
+  border:1px solid gray;
+  padding :2px ;
 }
