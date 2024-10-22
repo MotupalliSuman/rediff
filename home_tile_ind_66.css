@@ -2,7 +2,7 @@ body {
 	text-align: left;
 	margin: 0 auto;
 	padding: 0;
-	font-family: 'Muli', 'arial', sans-serif, FreeSans;
+	font-family: "Merriweather", serif;
 	font-size: 13px;
 }
 p, h1, h2, h3, h4, h5, h6, form {
@@ -12,7 +12,7 @@ p, h1, h2, h3, h4, h5, h6, form {
 	font-size: 13px;
 }
 form, input, option, textarea {
-	font-family: 'Muli', 'arial', sans-serif, FreeSans;
+	font-family: "Merriweather", serif;
 	font-size: 13px;
 }
 div {
@@ -90,18 +90,14 @@ a:hover {
 	color: #477bc4;
 }
 @font-face {
-	font-family: 'Muli';
-	font-display: swap;
-	src: url('//imworld.rediff.com/worldrediff/fonts_1/muli.eot');
-	/* src: url('//imworld.rediff.com/worldrediff/fonts_1/muli.eot?#iefix') format('embedded-opentype'), url('//imworld.rediff.com/worldrediff/fonts_1/muli.woff2') format('woff2'), url('//imworld.rediff.com/worldrediff/fonts_1/muli.woff') format('woff'), url('//imworld.rediff.com/worldrediff/fonts_1/muli.ttf') format('truetype'), url('//imworld.rediff.com/worldrediff/fonts_1/muli.svg#Muli') format('svg'); */
-	font-weight: normal;
+	font-family: "Merriweather", serif;
+	font-weight: 300;
+	font-style: normal;
 }
 @font-face {
-	font-family: 'Muli';
-	font-display: swap;
-	/* src: url('//imworld.rediff.com/worldrediff/fonts_1/muli-bold.eot'); */
-	/* /* /* src: url('//imworld.rediff.com/worldrediff/fonts_1/muli-bold.eot?#iefix') format('embedded-opentype'), url('//imworld.rediff.com/worldrediff/fonts_1/muli-bold.woff2') format('woff2'), url('//imworld.rediff.com/worldrediff/fonts_1/muli-bold.woff') format('woff'), url('//imworld.rediff.com/worldrediff/fonts_1/muli-bold.ttf') format('truetype'), url('//imworld.rediff.com/worldrediff/fonts_1/muli-bold.svg#Muli') format('svg'); */ */ */
-	font-weight: bold;
+	font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
 }
 .vmiddle {
 	vertical-align: middle !important;
@@ -216,7 +212,17 @@ a:hover {
 	top: 6px;
 	background: #c2c2c2;
 }
-.navbarul li:first-child:before {
+.navbar .navbarul li:nth-child(2):before {
+	content: '';
+	position: absolute;
+	height: 4px;
+	width: 48px;
+	background: #4d4b4c;
+	bottom: 0;
+	left: 6px;
+}
+
+.subnavbar  .navbarul li:first-child:before {
 	content: '';
 	position: absolute;
 	height: 4px;
@@ -805,7 +811,7 @@ a:hover {
 	margin-right: 10px;
 }
 h2.time i {
-	font-family: 'arial';
+	font-family: "Merriweather", serif;
 	font-style: normal;
 	color: #bc3e31 !important;
 	font-size: 11px;
@@ -836,7 +842,9 @@ h2.time i {
 	text-align: center;
 	top: 17px;
 	left: 56px;
-	font-family: arial;
+	font-family: "Merriweather", serif;
+	font-weight: 700;
+	font-style: normal;
 }
 .div_corona {
 	display: table;
@@ -900,7 +908,9 @@ h2.time i {
 	text-align: center;
 	top: -6px;
 	left: 47px;
-	font-family: arial;
+	font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 @media screen and (max-width: 1110px) {
 	.secstorybox {
