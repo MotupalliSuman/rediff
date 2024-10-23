@@ -30,6 +30,9 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -109,12 +112,17 @@
             </head>
             <body>
               <nav class="sidenavbar">
-                <span class="hmsprite logo"></span>
-                <div class="hamburger" id="hamburger">
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                  <span class="bar"></span>
+                <div class="logo-bar">
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                      </div>
+                    <span class="hmsprite logo"></span>
+                    
                 </div>
+               <a href="https://mail.rediff.com/cgi-bin/login.cgi" title="Already a user? Sign in" class="signin">Sign in</a> 
+                
               </nav>
             
               <div class="sidebar" id="sidebar">
@@ -173,6 +181,7 @@
                 closeBtn.addEventListener('click', () => {
                   sidebar.classList.remove('active');
                   overlay.classList.remove('active');
+                  
                 });
             
                 // Close sidebar when clicking outside of it (on the overlay)
@@ -185,6 +194,7 @@
                 subsectionsToggle.addEventListener('click', () => {
                   subsections.style.display = subsections.style.display === 'block' ? 'none' : 'block';
                   subsectionsToggle.querySelector('.plusicon').classList.toggle('rotate');
+                  
                 });
             
                 // Toggle Tips submenu
@@ -251,16 +261,7 @@
     </div>
 </div>
      </div>
-     <!-- <div class="red_container">
-        <div class="subnavbar news">
-            <ul class="navbarul">
-            <li><a href="https://www.rediff.com/headline.html">Headlines</a></li><li><a href="https://www.rediff.com/news/defence">Defence</a></li><li><a href="https://www.rediff.com/news/slideshows">Images</a></li><li><a href="https://www.rediff.com/news/columns">Columns</a></li><li><a href="https://www.rediff.com/news/interview">Interviews</a></li><li><a href="https://www.rediff.com/news/specials">Specials</a></li>			</ul>
-        </div>
-     </div> -->
-   
-    
-     
-      <!-- red_container starts -->
+  
       <div id="red_container_main" class="red_container">
         <div class="firstrow">
             <div class="secstorybox topboxheight corona topstories">
