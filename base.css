@@ -291,7 +291,7 @@ h2:before{
 }
 
 .sub-navbar a:hover {
-  border-bottom:3px solid  blue;
+  border-bottom:3px solid  red;
 }
 
 .sub-navbar a.active {
